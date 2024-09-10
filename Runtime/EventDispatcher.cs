@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
-using com.trashpandaboy.core.Utils;
 
 namespace com.trashpandaboy.events
 {
@@ -19,7 +18,7 @@ namespace com.trashpandaboy.events
         {
             if (eventDictionary == null)
             {
-                eventDictionary = new Dictionary<string, UnityAction<DataSet>>();
+                eventDictionary = new Dictionary<string, UnityAction<Object>>();
             }
         }
 
