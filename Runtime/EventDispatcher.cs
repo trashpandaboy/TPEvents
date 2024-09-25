@@ -75,6 +75,8 @@ namespace com.trashpandaboy.events
         /// <param name="eventName">Event name contained in the dictionary.</param>
         public static void TriggerEvent(string eventName, object eventParameters = null)
         {
+            if(eventDictionary == null) return;
+
             UnityAction<object> eventObject;
             if (eventDictionary.TryGetValue(eventName, out eventObject))
             {
