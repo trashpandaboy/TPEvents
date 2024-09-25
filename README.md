@@ -4,7 +4,7 @@ TPEvents is a simple event system for Unity, designed to facilitate event manage
 
 ## Installation
 
-To install TPEvents please use the UnityPackageManager
+To install TPEvents, please use the UnityPackageManager
 
 ## Usage
 
@@ -69,4 +69,4 @@ public class Example : MonoBehaviour
 
 ## License
 
-This project is released under the Unlicense.
+This project is licensed under the Unlicense. For more details, see the `LICENSE` file.
